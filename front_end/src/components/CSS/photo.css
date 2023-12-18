@@ -1,0 +1,103 @@
+body{
+    background: url("../img/backgroundd.jpg") no-repeat;
+}
+.header{
+    height:75px;
+
+    display: flex;
+
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+.header  .img{
+
+
+}
+.header  .ziti{
+
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "sans-serif";
+
+}
+
+.display{
+    display: flex;
+    padding-left:450px;
+    align-items: center;
+    margin-top: 100px;
+}
+.display .left{
+
+}
+.display .right{
+    margin-left: 430px;
+}
+.container {
+    width:1000px;
+    display: flex;
+
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .leftArea{
+    width: 45%;
+    height: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.container .rightArea {
+    width: 45%;
+    height: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.container .leftArea .front{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container .rightArea .back{
+    max-width: 100%;
+    max-height: 100%;
+}
+.choose{
+    margin-top: 50px;
+    display:flex;
+}
+.choose .left{
+    display:flex;
+    margin-left: 420px;
+}
+
+.choose .left .upload-btn{
+
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    height:23px;
+}
+.choose .right{
+
+    display:flex;
+    margin-left: 444px;
+}
+.choose .right .recognize-btn{
+    background-color: sandybrown;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type="file"] {
+    display: none;
+}
+
+

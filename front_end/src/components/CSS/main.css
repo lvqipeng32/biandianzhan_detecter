@@ -1,0 +1,303 @@
+body{
+    background-color: navajowhite;
+}
+.header{
+    height:75px;
+
+    display: flex;
+
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+.header  .img{
+
+
+}
+.header  .ziti{
+
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "sans-serif";
+
+}
+
+.myimg{
+    display: flex;
+    margin: 0 auto;
+    background-color: green;
+
+    height:500px;
+    background-image:url("../../msedge_QjrtbNMMCg.png");
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 980px;
+    padding-top: 170px;
+
+}
+.myimg .upp{
+    width:300px;
+    height:70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+.myimg .upp .uppp{
+    font-size:50px;
+    color: white;
+
+}
+.myimg .dowwn{
+    width:400px;
+    height:100px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+.myimg .dowwn .dowwwn{
+    font-size:35px;
+    color: white;
+    font-family: "华文行楷";
+
+
+}
+
+
+.shangchuan{
+    width:999px;
+    height:400px;
+    background-color: blue;
+    margin: 50px auto;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    background-image: url("img/image.png");
+    flex-direction: column;
+    padding-left: 0px;
+}
+.shangchuan .camera{
+    width:120px;
+    height:50px;
+    border-radius: 10px;
+    background-color: sandybrown;
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shangchuan  .camera .cameraa{
+    text-decoration-line: none;
+    font-size: 20px;
+    color:lightgoldenrodyellow;
+}
+
+.shangchuan  .camera .cameraa .fa-camera{
+    margin-right: 10px;
+}
+
+.shangchuan .photo{
+    width:120px;
+    height:50px;
+    border-radius: 10px;
+    background-color: sandybrown;
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.shangchuan .photo .photoa{
+    text-decoration-line: none;
+    font-size: 20px;
+    color:lightgoldenrodyellow;
+}
+.shangchuan  .photo .photoa .fa-image{
+    margin-right: 10px;
+}
+
+.shangchuan .video{
+    width:120px;
+    height:50px;
+    border-radius: 10px;
+    background-color: sandybrown;
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.shangchuan .video .videoa{
+    text-decoration-line: none;
+    font-size: 20px;
+    color:lightgoldenrodyellow;
+}
+.shangchuan  .video .videoa .fa-video{
+    margin-right: 10px;
+}
+.more{
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:600px;
+    flex-wrap: wrap;
+}
+.more .baidu{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+}
+.more .baidu .baidua{
+    text-decoration: none ;
+}
+.more .baidu  .baidup{
+    text-align: center;
+    color:midnightblue;
+}
+.more .buy{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+}
+.more .buy .buya{
+    text-decoration: none ;
+}
+.more .buy  .buyp{
+    text-align: center;
+    color:midnightblue;
+}
+.more .study{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+}
+.more .study .studya{
+    text-decoration: none ;
+}
+.more .study  .studyp{
+    text-align: center;
+    color:midnightblue;
+}
+.more .photo{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+}
+.more .photo .photoa{
+    text-decoration: none ;
+}
+.more .photo  .photop{
+    text-align: center;
+    color:midnightblue;
+}
+.more .video{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+
+}
+.more .video .videoa{
+    text-decoration: none ;
+}
+.more .video  .videop{
+    text-align: center;
+    color:midnightblue;
+}
+.more .discuss{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+
+}
+.more .discuss .discussa{
+    text-decoration: none ;
+}
+.more .discuss  .discussp{
+    text-align: center;
+    color:midnightblue;
+}
+.more .try{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+
+}
+.more .try .trya{
+    text-decoration: none ;
+}
+.more .try  .tryp{
+    text-align: center;
+    color:midnightblue;
+}
+.more .oldsale{
+    width:300px;
+    height:265px;
+    background-color:antiquewhite;
+    flex-direction: column;
+
+}
+.more .oldsale .oldsalea{
+    text-decoration: none ;
+}
+.more .oldsale  .oldsalep{
+    text-align: center;
+    color:midnightblue;
+}
+
+.footer{
+    flex-wrap: wrap;
+    margin-top: 100px;
+    display:flex;
+    text-decoration: none ;
+    background-color:burlywood;
+    height:300px;
+}
+.footer .left{
+    margin-left:385px;
+    flex-direction: column;
+
+}
+.footer .left .up{
+    text-decoration: none ;
+    color:slateblue;
+}
+.footer .left .down{
+    color:slateblue;
+    text-decoration: none ;
+}
+
+.footer .right{
+    margin-left:293px;
+}
+.footer .right .mmore{
+    color:slateblue;
+    text-decoration: none ;
+}
+.footer .bottom{
+    margin-left:600px;
+    margin-bottom: 0px;
+    width:700px;
+    height:20px;
+
+}
+
+

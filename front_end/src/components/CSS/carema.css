@@ -1,0 +1,55 @@
+
+body{
+    background: url("../img/background.jpg") no-repeat;
+}
+.header{
+    height:75px;
+
+    display: flex;
+
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+.header  .img{
+
+
+}
+.header  .ziti{
+
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "sans-serif";
+
+}
+.header .controll{
+    width:100px;
+    height:35px;
+    margin-left:850px;
+    margin-top: 20px;
+    background-color: #ff253a;
+    border-radius: 20px;
+}
+.display {
+    display: flex;
+
+    width:1330px;
+    height:480px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+.display .left{
+    height:480px;
+    width:640px;
+    background-color: green;
+    margin-right:50px;
+}
+.display .right{
+    width:640px;
+    height:480px;
+    background-color: blue;
+}
